@@ -1,14 +1,10 @@
-function SwapNumber(input) {
-    const entries = Object.entries(input);
-  
-    const temp = entries[0][1];  
-    entries[0][1] = entries[1][1]; 
-    entries[1][1] = temp; 
-  
-    const swappedObject = Object.fromEntries(entries);
-  
-    return swappedObject; 
-  }
-  
-  console.log(SwapNumber({ a: 10, b: 20 })); // Output: { a: 20, b: 10 }
-  
+//Write function that pop last element for array
+
+
+function HandleDelete (arr){
+for(let i = 0 ; i<arr.length -1 ; i++){
+    console.log(arr[i])
+}
+}
+
+console.log(HandleDelete([2,3,4,5,6]))
