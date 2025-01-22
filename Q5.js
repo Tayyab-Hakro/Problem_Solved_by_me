@@ -12,7 +12,7 @@ for(let j =0 ; j<arr2.length ; j++){
 return Arr3
 }
 
-// Example usage
+
 let result = MergeArr([1, 2, 3], [4, 5, 6]);
 console.log(result); // Output: [1, 2, 3, 4, 5, 6]
 
