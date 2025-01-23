@@ -1,16 +1,16 @@
-function functionA(count) {
-  if (count > 0) {
-    console.log("Function A:", count);
-    functionB(count - 1);
-    console.log( "Check here count value",count)
+function countDownEven(count) {
+    if (count > 0) {
+      console.log("Even:", count);
+      countDownOdd(count - 1); // Call the odd function with a decremented count
+    }
   }
-}
-
-function functionB(count) {
-  if (count > 0) {
-    console.log("Function B:", count);
-    functionA(count - 1);
+  
+  function countDownOdd(count) {
+    if (count > 0) {
+      console.log("Odd:", count);
+      countDownEven(count - 1); // Call the even function with a decremented count
+    }
   }
-}
-
-functionA(5);
+  
+  countDownEven(10);
+  
