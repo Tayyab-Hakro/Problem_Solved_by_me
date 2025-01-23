@@ -1,22 +1,23 @@
-
-/** 2. Summing Numbers Using Indirect Recursion
-Write two functions, sumEven and sumOdd, that work together to 
-calculate the sum of numbers from n to 1:
-sumEven adds even numbers and calls sumOdd.
-sumOdd adds odd numbers and calls sumEven. */
-
-function sumEven(num ,sum =0){
-if(num  > 0){
-    console.log("Even  +" ,num)
-    return sumOdd(num +1)
-}
-}
-function sumOdd(num ,sum =0){
-    if(num > 0){
-        console.log("Even  +" ,num)
-        return sumOdd(num + 1)
+function sumEven(num, sum = 0) {
+    if (num <= 0) {
+      return sum;
     }
-}
-
-
-sumEven(10)
+    if (num % 2 === 0) {
+      sum += num; 
+    }
+    return sumOdd(num - 1, sum); 
+  }
+  
+  function sumOdd(num, sum = 0) {
+    if (num <= 0) {
+      return sum; 
+    }
+    if (num % 2 !== 0) {
+      sum += num; 
+    }
+    return sumEven(num - 1, sum); 
+  }
+  
+  const result = sumEven(10);
+  console.log("Total Sum:", result);
+  
