@@ -1,7 +1,10 @@
-Q1 Given an array of numbers, return a new array where each element is the square of
- the original element, but only if the original number is even.
+// Q1 Given an array of numbers, return a new array where each element is the square of
+//  the original element, but only if the original number is even.
 
-Q2  Write a function that removes duplicate elements  from an array 
-and returns a new array with unique values.
+// Q2  Write a function that removes duplicate elements  from an array 
+// and returns a new array with unique values.
 
+// Q3 Write a function that flattens a nested array into a single array
+
+// Q4 //Sum the array with only reduce method of javascript
 
