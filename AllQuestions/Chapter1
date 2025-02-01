@@ -6,5 +6,8 @@
 
 // Q3 Write a function that flattens a nested array into a single array
 
-// Q4 //Sum the array with only reduce method of javascript
+// Q4 Sum the array with only reduce method of javascript
+
+// Q5 Write a function that change Object Into Array and it's key value and correspondings
+
 
