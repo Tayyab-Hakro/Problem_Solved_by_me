@@ -1,3 +1,6 @@
+// Write a function that removes duplicate elements
+//   from an array 
+//and returns a new array with unique values.
 function removeDuplicate(arr) {
     let uniqueValues = [];
     for (let i = 0; i < arr.length; i++) {

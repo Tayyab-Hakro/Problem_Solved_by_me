@@ -2,7 +2,8 @@
 
 function ObjectArr(obj){
 let Result = Object.entries(obj)
-return Result
+return Result.flat()
+//I have use flat to remove extra arr like []
 }
 
 console.log(ObjectArr({name : 'Tayyab' , caste :'Hakro' }))

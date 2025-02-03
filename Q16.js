@@ -4,7 +4,7 @@ function areAnagrams(str1, str2) {
         return false;
     }
 
-    // Sort both strings and compare
+    // Sort both strings -and compare
     return str1.split('').sort().join('') === str2.split('').sort().join('');
 }
 
