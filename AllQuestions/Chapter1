@@ -1,8 +1,6 @@
-// Q1 Given an array of numbers, return a new array where each element is the square of
-//  the original element, but only if the original number is even.
+// Q1 Given an array of numbers, return a new array where each element is the square of the original element, but only if the original number is even.
 
-// Q2  Write a function that removes duplicate elements  from an array 
-// and returns a new array with unique values.
+// Q2  Write a function that removes duplicate elements  from an array // and returns a new array with unique values.
 
 // Q3 Write a function that flattens a nested array into a single array
 
@@ -11,3 +9,7 @@
 // Q5 Write a function that change Object Into Array and it's key value and correspondings
 
 Q6 //Write a function when we click next button then it will show new image
+
+Q7 // Implement a function to reverse the words in a  given sentence  (e.g., "Hello World" → "World Hello").
+
+Q8 // Given an array of objects representing students, find the student with the highest marks.
