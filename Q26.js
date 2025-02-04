@@ -4,7 +4,7 @@ let ArrofObj = [
     { name: "Billionaire", mark: 80 }
 ];
 
-let topStudent = ArrofObj[0]; // Assume first student is top scorer
+let topStudent = ArrofObj[0]; 
 
 for (let student of ArrofObj) {
     if (student.mark > topStudent.mark) {
@@ -12,4 +12,4 @@ for (let student of ArrofObj) {
     }
 }
 
-console.log(topStudent); // Output: { name: "Billionaire", mark: 80 }
+console.log(topStudent); 

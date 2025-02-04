@@ -5,7 +5,7 @@
 
 function ReverseSentence (Str){
 Str = Str.split(" ")
-let LastStr = Str[1] + Str[0]
+let LastStr = Str[1] +  Str[0]
 return LastStr
 }
 
