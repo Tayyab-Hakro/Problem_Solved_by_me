@@ -17,3 +17,5 @@ Q8 // Given an array of objects representing students, find the student with the
 Q9 Create a function that converts a number to Roman numerals.
 
  Q10 // Use a While loop that sum the number from 1 to 10
+ 
+Q11  Write a for loop that skips even number from 1 to 20
