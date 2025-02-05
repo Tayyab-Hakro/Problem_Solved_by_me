@@ -19,3 +19,5 @@ Q9 Create a function that converts a number to Roman numerals.
  Q10 // Use a While loop that sum the number from 1 to 10
  
 Q11  Write a for loop that skips even number from 1 to 20
+
+Q12 //Create A for loop that calculate the factorial of 5
