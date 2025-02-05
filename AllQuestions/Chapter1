@@ -15,3 +15,5 @@ Q7 // Implement a function to reverse the words in a  given sentence  (e.g., "He
 Q8 // Given an array of objects representing students, find the student with the highest marks.
 
 Q9 Create a function that converts a number to Roman numerals.
+
+ Q10 // Use a While loop that sum the number from 1 to 10
