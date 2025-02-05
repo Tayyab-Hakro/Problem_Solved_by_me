@@ -21,3 +21,8 @@ Q9 Create a function that converts a number to Roman numerals.
 Q11  Write a for loop that skips even number from 1 to 20
 
 Q12 //Create A for loop that calculate the factorial of 5
+
+Q13  Create a nested loop that print grid of 3 *3 example [1,2,3] ,[4,5,6],[7,8,9]
+
+Q14 Write a while loop that prints number from 1 to 100 and divisable 5
+ 
