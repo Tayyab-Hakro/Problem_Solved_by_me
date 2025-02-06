@@ -25,4 +25,9 @@ Q12 //Create A for loop that calculate the factorial of 5
 Q13  Create a nested loop that print grid of 3 *3 example [1,2,3] ,[4,5,6],[7,8,9]
 
 Q14 Write a while loop that prints number from 1 to 100 and divisable 5
- 
+
+Q15  Create a function that will check if string is starting with specfic Character
+
+Q16 Create function that count numbers words in string
+
+Q17 write a function that count accourence words in String
