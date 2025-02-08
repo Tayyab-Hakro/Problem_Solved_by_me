@@ -1,0 +1,3 @@
+Q1 // Define a Person class with properties name and age, and a method greet() that prints "Hello, my name is [name] and I am [age] years old."
+
+Q2 Modify the Person class to take name and age as parameters in the constructor.
