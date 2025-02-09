@@ -1,4 +1,4 @@
-Modify the Person class to take name and age as parameters in the constructor.
+// Modify the Person class to take name and age as parameters in the constructor.
 class Person {
     constructor(name, age) {
         this.name = name;

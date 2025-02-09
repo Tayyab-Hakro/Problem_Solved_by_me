@@ -1,3 +1,4 @@
+//Write a Object make a method that will sum two number and use it other Objecct to sum the Values
 const TotalSum = {
     Calculate(a , b){
 return a + b
