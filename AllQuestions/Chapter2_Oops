@@ -5,3 +5,17 @@ Q2 Modify the Person class to take name and age as parameters in the constructor
 Q3 //Write a Object make a method that will sum two number and use it other Objecct to sum the Values
 
 Q4  //Create a Employee Object with class and constructor and 5 new emplooyes with constructor data
+
+Q5 // //Create A class User with 2 properties name & email. it also has  a method called viewData() that allow user to view website data
+
+Q6 //mAKE A uSER class and make it child
+
+Q7 // Create a class Animal with a method makeSo(), and extend it in a class Dog. Override the makeSound() method in Dog to print "Woof! Woof!
+
+Q8 //Create A class car and make it's private speed
+
+Q9 // 2. Encapsulation & Getters/Setters
+// Modify the BankAccount class to make//  balance a private
+//  attribute and use//  getter and setter methods to access  and modify it.
+
+Q11 

@@ -1,3 +1,4 @@
+//mAKE A uSER class and make it child
 class User {
     constructor(name, email) {
         this.name = name;
@@ -16,5 +17,6 @@ class Admin extends User {
 const user1 = new Admin("Alu", "alluargun@email.com");
 console.log(user1); // Before updating
 
-user1.editData("Allu Arjun", "allu@newemail.com"); // Updating user data
-console.log(user1); // After updating
+user1.editData("Allu Arjun", "allu@newemail.com"); // Updating user dat
+a
+console.log(user1); 

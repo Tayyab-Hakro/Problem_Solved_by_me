@@ -1,3 +1,4 @@
+//Create A class car and make it's private speed
 class Car {
     constructor() {
         this._speed = 0; // Private property with default value
