@@ -36,4 +36,8 @@ Q18 Search 8 from array with Binary Searach
 
 Q19 Implement a simple version of a JavaScript Promise from scratch with then, catch, and finally methods.
 
- Q20 Reverse String using Recursion  
+ Q20 Reverse String using Recursion 
+
+ Q21 5. Check if a String is a Palindrome Write a recursive function to check if a given string is a palindrome.
+
+Q22 Divide array into chunks 
