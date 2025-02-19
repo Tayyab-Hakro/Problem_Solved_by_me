@@ -1,3 +1,4 @@
+//Write a funcation extract length k from s 
 var truncateSentence = function(s, k) {
 let final = s.split(" ")
 let ns =final.slice(0,k)
