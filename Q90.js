@@ -1,10 +1,15 @@
-const arr = [0,1,2,3,4,5]
-let value = 3
-let replaced = 10
-for(let i = 0 ; i<arr.length ; i++){
-if(arr[i] === value){
-arr[i] =replaced
-}
-console.log(arr[i])
+var countConsistentStrings = function(allowed, words) {
+    const allowedSet = new Set(allowed); // Store allowed characters in a Set
+    let count = 0;
 
-}
+    words.forEach(word => {
+        if ([...word].every(char => allowedSet.has(char))) {
+            count++; // Increment count if all characters in word are in allowedSet
+        }
+    });
+
+    return count;
+};
+
+console.log(countConsistentStrings("ab", ["ad", "bd", "aaab", "baa", "badab"])); 
+// Output: 2
